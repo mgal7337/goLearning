@@ -85,6 +85,11 @@ func main() {
 	fmt.Println(isActive)
 	fmt.Println(delta)
 
-	fmt.Println(after)
-	var after int
+	i, f, s, b := 314, 3.14, "Hello", true
+	fmt.Println(
+		"i:", i,
+		"f:", f,
+		"s:", s,
+		"b:", b,
+	)
 }
